@@ -1,0 +1,17 @@
+body {
+  font-family: "Vazir", Arial, sans-serif;
+  font-weight: normal;
+}
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../static/Vazir.eot");
+  src: url("../static/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../static/Vazir.woff2") format("woff2"),
+    url("../static/Vazir.woff") format("woff"),
+    url("../static/Vazir.ttf") format("truetype");
+}
+ul.navbar-nav li:hover{
+    border-top: 2px solid red;
+}
